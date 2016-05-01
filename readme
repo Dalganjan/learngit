@@ -1,0 +1,10 @@
+Changes are done in pom.xml: 
+I changed the location of dependency in dependencies tag.
+Changes in build gradle file:
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.json:json:20140107")
+    compile("mysql:mysql-connector-java:5.1.6")   //added 
+    compile("org.springframework:spring-jdbc:3.2.0.RELEASE")   //added
+    testCompile("junit:junit")
+}
